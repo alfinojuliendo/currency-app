@@ -41,7 +41,6 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$app_compat_version"
     implementation "com.google.android.material:material:$material_version"
     implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"
-    testImplementation "junit:junit:$junit_version"
 
     // Coroutine
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_android_version"
@@ -63,5 +62,15 @@ dependencies {
     implementation "com.google.code.gson:gson:$gson_version"
 
     // Guava
-    implementation "com.google.guava:guava:28.1-android"
+    implementation "com.google.guava:guava:$guava_version"
+
+    // Testing Libraries
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "androidx.arch.core:core-testing:$core_testing_version"
+
+    // Mockito
+    testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:$mockito_version") {
+        exclude group: "org.mockito"
+    }
+    testImplementation "org.mockito:mockito-inline:$mockito_inline_version"
 }
