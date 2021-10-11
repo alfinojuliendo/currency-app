@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CurrencyApp</string>
+    <string name="text_button_load_data">Load Data</string>
+    <string name="text_button_sort_data">Sort Data</string>
 </resources>
