@@ -17,4 +17,22 @@ interface CurrencyDao {
 
     @Query("SELECT * FROM currency ORDER BY name ASC")
     suspend fun getSortedCurrenciesByName(): List<CurrencyInfoEntity>
+
+       @Query("SELECT * FROM currency ORDER BY name ASC")
+    suspend fun getSortedCurrenciesByName(): List<CurrencyInfoEntity>
+
+       @Query("SELECT * FROM currency ORDER BY name ASC")
+    suspend fun getSortedCurrenciesByName(): List<CurrencyInfoEntity>
+
+       @Query("SELECT * FROM currency ORDER BY name ASC")
+    suspend fun getSortedCurrenciesByName(): List<CurrencyInfoEntity>
+
+       @Query("SELECT * FROM currency ORDER BY name ASC")
+    suspend fun getSortedCurrenciesByName(): List<CurrencyInfoEntity>
+
+       @Query("SELECT * FROM currency ORDER BY name ASC")
+    suspend fun getSortedCurrenciesByName(): List<CurrencyInfoEntity>
+
+       @Query("SELECT * FROM currency ORDER BY name ASC")
+    suspend fun getSortedCurrenciesByName(): List<CurrencyInfoEntity>
 }
